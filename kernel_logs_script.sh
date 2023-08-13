@@ -9,7 +9,7 @@ onehour=$(date -d '1 hour ago' +'%Y-%m-%d %H:%M:%S')
 journalctl -k -S "$onehour" > "$logfile"
 
 tar -cvjf "$zipfile" "$logfile"
-
-dbxcli put "$zipfile" /path/to/dropbox/folder
+//doesnt work this command 
+// dbxcli put "$zipfile" /path/to/dropbox/folder
 
 rm "$logfile" "$zipfile"
