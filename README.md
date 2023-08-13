@@ -20,6 +20,7 @@ Deliverables:
 - a public GitHub repository with two files: the shell script and the systemd timer file
 - a link to the dropbox folder that contains the logs (make sure it can be publicly accessed
 ## commands that I used :
+sudo apt install vim 
 vim kernel-logs-2023-8-136-20.txt
 sudo systemctl enable /path/to/kernel-logs-2023-8-136-20.txt.timer
 sudo systemctl start kernel-logs-2023-8-136-20.txt.timer
